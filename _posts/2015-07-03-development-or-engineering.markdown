@@ -9,4 +9,4 @@ When it comes to building and delivering software, things seem somehow different
 This perception may be skewed, or even deceptive, but whichever the case may be, we need to understand the differences between software development and software engineering. So, in my view:
 
 * **Software development:** the art and craft of producing computer programs that are deterministic (or near-deterministic) by the virtue of their purity
-* **Software engineering:** the art and science of accepting the requirements coming form upstream business and running with requirements by making sure the development team follows the 'building from the business outcomes', or 'building from outside in' guidelines
+* **Software engineering:** the art and science of accepting the requirements coming form upstream business and then running with those requirements by making sure the development team follows the 'building from the business outcomes', or 'building from outside in' guidelines
