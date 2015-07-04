@@ -12,3 +12,17 @@ This perception may be skewed, or even deceptive, but whichever the case may be,
 * **Software engineering:** the art and science of accepting the requirements coming form upstream business and then running with those requirements by making sure the development team follows the 'building from the business outcomes', or 'building from outside in' guidelines
 
 We will be making a distinction between these two roles (i.e. software development and software engineering) as we're making progress in the subsequent articles. My intention is to focus more on the sofware development side of the business (e.g. how to work toward ensuring that the code we produce delivers deterministic, predictable results). I am however fully aware of the fact that just delivering predictive, deterministic code is not sufficient -- we also need to deliver predictive, deterministic process which will ensure we remain predictably time boxed and are staying within budgetary constraints.
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'alexbunardzic';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

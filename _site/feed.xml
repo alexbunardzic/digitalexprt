@@ -6,9 +6,43 @@
 </description>
     <link>https://alexbunardzic.github.io/</link>
     <atom:link href="https://alexbunardzic.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Jul 2015 09:55:35 -0700</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2015 09:55:35 -0700</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2015 10:52:45 -0700</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2015 10:52:45 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Why Software Tends to Harden?</title>
+        <description>&lt;p&gt;The nature of a software product is to be soft, meaning maleable, pliable, easy to mold and modify. The very word ‘soft’ is in the name of the product – software.&lt;/p&gt;
+
+&lt;p&gt;Isn’t it surprising to see how many, if not most of the software products tend to harden as we work on them? We’ve all been there (and most likely more often than once): start some software development project, and get excited at first while observing how quickly we make useful and significant changes and continue adding value. But the initial buzz quickly wears off. Soon enough we get to the point where we realize that, all of a sudden, the honey moon appears to be over. Our shiny new product, that was up until yesterday so eager to emnbrace change and go into any direction we ask it to go, has now turned into a grumpy old curmudgeon.&lt;/p&gt;
+
+&lt;p&gt;This is the much dreaded point where we hit the wall, full speed, and experience rude awakening that’s telling us that our product has hardened into a solid, impenetrable mass. Any attempt to add new features, or modify existing features, or even remove superfluous features, turns into a disaster. Touch this newly hardened software product, and it will bite back. All of a sudden, our codebase become averse to change. At this point, many teams resign to the fact that they have built a so called ‘ball of mud’, and label it ‘legacy’ and then learn to live with its quirks and foibles. Or, as is often the case, many team members at that point quit, and start looking for another opportunity for a fresh start.&lt;/p&gt;
+
+&lt;p&gt;This seemingly inevitable pattern is the bane of software developers’ existence. It truly spoils all the joy we experience as we embark upon a brand new, exciting project. So the most pressing question for every software developer/engineer/programmer is – &lt;em&gt;why&lt;/em&gt;? Why does each software development project inevitably have to erode and be ttransformed from soft and pliable to hardened and immovable legacy writeoff?&lt;/p&gt;
+
+&lt;p&gt;Solve the above question, and you’ve made the world a better place. Easier said than done, but we’ll try to supply some diagnostic, forensics, as well as some remedies in the articles to follow here.&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = &#39;alexbunardzic&#39;;
+    
+    /* * * DON&#39;T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+        dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+        (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</description>
+        <pubDate>Sat, 04 Jul 2015 10:30:54 -0700</pubDate>
+        <link>https://alexbunardzic.github.io/2015/07/04/why-software-tends-to-harden.html</link>
+        <guid isPermaLink="true">https://alexbunardzic.github.io/2015/07/04/why-software-tends-to-harden.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Software Development or Software Engineering?</title>
@@ -22,6 +56,21 @@
 &lt;/ul&gt;
 
 &lt;p&gt;We will be making a distinction between these two roles (i.e. software development and software engineering) as we’re making progress in the subsequent articles. My intention is to focus more on the sofware development side of the business (e.g. how to work toward ensuring that the code we produce delivers deterministic, predictable results). I am however fully aware of the fact that just delivering predictive, deterministic code is not sufficient – we also need to deliver predictive, deterministic process which will ensure we remain predictably time boxed and are staying within budgetary constraints.&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = &#39;alexbunardzic&#39;;
+    
+    /* * * DON&#39;T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+        dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+        (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot; rel=&quot;nofollow&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 </description>
         <pubDate>Fri, 03 Jul 2015 20:07:03 -0700</pubDate>
         <link>https://alexbunardzic.github.io/2015/07/03/development-or-engineering.html</link>
