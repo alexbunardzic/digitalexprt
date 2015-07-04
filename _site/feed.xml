@@ -6,19 +6,22 @@
 </description>
     <link>https://alexbunardzic.github.io/</link>
     <atom:link href="https://alexbunardzic.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Jul 2015 20:57:16 -0700</pubDate>
-    <lastBuildDate>Fri, 03 Jul 2015 20:57:16 -0700</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2015 09:55:35 -0700</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2015 09:55:35 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Software Development or Software Engineering?</title>
-        <description>&lt;p&gt;When it comes to building and delivering software, things seem somehow different from the way they appear in other, non-virtual activities. For example, in the construction business we may have developers and engineers, however developers are focused on managing the &lt;em&gt;process&lt;/em&gt; of building and delivering, while engineers are focused on ensuring the &lt;em&gt;product quality&lt;/em&gt; by adhering to engineering principles. In software, on the other hand, engineers seem focused on managing the &lt;em&gt;process&lt;/em&gt; of software delivery, while developers tend to narrow their attention down to ensuring the &lt;em&gt;product quality&lt;/em&gt; by adhering to the principles of solid programming practices.&lt;/p&gt;
+        <description>&lt;p&gt;When it comes to building and delivering software, things seem somehow different from the way they appear in other, non-virtual activities. For example, in the construction business we may have developers and engineers, but their roles seem to differ from the roles assigned to them in the software delivery business. In the construction business, developers are focused on managing the &lt;em&gt;process&lt;/em&gt; of building and delivering, while engineers are focused on ensuring the &lt;em&gt;product quality&lt;/em&gt; by adhering to engineering principles. In software, on the other hand, engineers seem focused on managing the &lt;em&gt;process&lt;/em&gt; of software delivery, while developers tend to narrow their attention down to ensuring the &lt;em&gt;product quality&lt;/em&gt; by adhering to the principles of solid programming practices.&lt;/p&gt;
 
 &lt;p&gt;This perception may be skewed, or even deceptive, but whichever the case may be, we need to understand the differences between software development and software engineering. So, in my view:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Software development:&lt;/strong&gt; the art and craft of producing computer programs that are deterministic by the virtue of their purity&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Software development:&lt;/strong&gt; the art and craft of producing computer programs that are deterministic (or near-deterministic) by the virtue of their purity&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Software engineering:&lt;/strong&gt; the art and science of accepting the requirements coming form upstream business and then running with those requirements by making sure the development team follows the ‘building from the business outcomes’, or ‘building from outside in’ guidelines&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;We will be making a distinction between these two roles (i.e. software development and software engineering) as we’re making progress in the subsequent articles. My intention is to focus more on the sofware development side of the business (e.g. how to work toward ensuring that the code we produce delivers deterministic, predictable results). I am however fully aware of the fact that just delivering predictive, deterministic code is not sufficient – we also need to deliver predictive, deterministic process which will ensure we remain predictably time boxed and are staying within budgetary constraints.&lt;/p&gt;
 </description>
         <pubDate>Fri, 03 Jul 2015 20:07:03 -0700</pubDate>
         <link>https://alexbunardzic.github.io/2015/07/03/development-or-engineering.html</link>
