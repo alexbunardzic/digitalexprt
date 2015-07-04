@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Also, exploring the possibilities of writing deterministic programs using Ruby and Ruby on Rails.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://alexbunardzic.github.io" # the base hostname & protocol for your site
+name: Alex Bunardzic
 twitter_username: alexbunardzic
 github_username:  alexbunardzic
 
