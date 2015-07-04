@@ -1,0 +1,13 @@
+# Site settings
+title: Putting Soft Back Into Software
+email: alexbunardzic@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Discussion about software development and software engineering. Practical points and tips illustrating how to bring 'soft' back into software. 
+  Also, exploring the possibilities of writing deterministic programs using Ruby and Ruby on Rails.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://alexbunardzic.github.io" # the base hostname & protocol for your site
+twitter_username: alexbunardzic
+github_username:  alexbunardzic
+
+# Build settings
+markdown: kramdown
