@@ -6,9 +6,26 @@
 </description>
     <link>https://alexbunardzic.github.io/</link>
     <atom:link href="https://alexbunardzic.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Jul 2015 11:25:33 -0700</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2015 11:25:33 -0700</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2015 16:38:29 -0700</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2015 16:38:29 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>How Is Complexity Causing Software to Harden?</title>
+        <description>&lt;p&gt;Complexity is the opposite of &lt;a href=&quot;https://en.wikipedia.org/wiki/Simplicity&quot;&gt;simplicity&lt;/a&gt;. Often times we hear that simplicity is the state where there is nothing left to take away. What we’re left with when we’ve reached the state where there is nothing left to be taken away is the essential. This, then, is synonimous with the final achievement.&lt;/p&gt;
+
+&lt;p&gt;When achieving simplicity in our software code, we have ensured that the product we’re working on remains soft (i.e. plable, maleable, open to growth, change). Conversely, when failing to achieve simplicity, we end up with complexity (incidental or accidental), which means we fail to retain plability, maleability. Our product, saddled with complexity, turns into a hardened surface. Such hardened surface is pushing back, resisting any and all attempts to change it.&lt;/p&gt;
+
+&lt;p&gt;So how do we know if we’re remaininig on the right track while writing code, and how do we know that we’re not abandoning simplicity and inadvertently introducing unwanted complexity? It’s a tricky question, and recognizing the silent creeping in of complexity is indeed a skill that takes time to develop. But there are some guidelines that are useful to keep in mind while designining and developing products and services.&lt;/p&gt;
+
+&lt;p&gt;The first thing to remember is that complexity is always easy. It’s the easiest thing that comes to mind when pondering how to solve a problem. Why is that the case? Simply put, we all tend to go with whatever it is we’re most familiar with.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Jul 2015 11:31:23 -0700</pubDate>
+        <link>https://alexbunardzic.github.io/2015/07/04/how-is-complexity-causing-software-to-harden.html</link>
+        <guid isPermaLink="true">https://alexbunardzic.github.io/2015/07/04/how-is-complexity-causing-software-to-harden.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Complexity is the Enemy</title>
