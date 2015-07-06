@@ -3,8 +3,8 @@ layout: page
 title: Blog
 ---
 
-<div class="post-link">Posts by Alex Bunardzic</div>
-<br />
+<div class="post-link">Posts by Alex Bunardzic</div><p/>
+
 <div class="home">
 
   <ul class="post-list">
