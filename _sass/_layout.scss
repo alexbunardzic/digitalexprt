@@ -221,7 +221,7 @@
 }
 
 .post-list {
-    margin-left: 20;
+    margin-left: 0;
     list-style: none;
 
     > li {
@@ -237,6 +237,11 @@
 .post-link {
     display: block;
     font-size: 20px;
+}
+
+.post-short {
+    font-size: $small-font-size;
+    color: $grey-color;    
 }
 
 

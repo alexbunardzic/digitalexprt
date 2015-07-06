@@ -313,7 +313,7 @@ pre {
   font-size: 20px; }
 
 .post-list {
-  margin-left: 20;
+  margin-left: 0;
   list-style: none; }
   .post-list > li {
     #margin-bottom: 30px; }
@@ -325,6 +325,10 @@ pre {
 .post-link {
   display: block;
   font-size: 20px; }
+
+.post-short {
+  font-size: 14px;
+  color: #828282; }
 
 /**
  * Posts
