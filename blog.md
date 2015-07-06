@@ -3,8 +3,8 @@ layout: page
 title: Blog
 ---
 
-### Posts by Alex Bunardzic
-
+<div class="post-link">Posts by Alex Bunardzic</div>
+<br />
 <div class="home">
 
   <ul class="post-list">
@@ -13,7 +13,8 @@ title: Blog
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <div class="post-meta">{{post.content | strip_html | truncatewords:25}}...<br /><br />{{ post.date | date: "%b %-d, %Y" }}</div>
+          <div class="post-meta">{{post.content | strip_html | truncatewords:25}}...</div>
+          <!--div>{{ post.date | date: "%b %-d, %Y" }}</div-->
         </h2>
       </li>
     {% endfor %}
