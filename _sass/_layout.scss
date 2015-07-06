@@ -61,48 +61,15 @@
     }
 
 
-
+/*  
 @media screen and (max-width: 300px) {
     .site-header h2 {
         font-size:12px;
         letter-spacing:0px;
     }
 } 
-/**
- * Site header
- *
-.site-header {
-    #background-color: $grey-color-light;
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 150px;
+*/
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
-}
-
-.site-title {
-    font-size: 66px;
-    color: #00ff00;
-    line-height: 180px;
-    letter-spacing: 3px;
-    margin-bottom: 0;
-    float: center;
-    text-transform: uppercase;
-    text-align: center;
-
- }
-
-.site-subtitle {
-    font-size: 18px;
-    line-height: 0px;
-    letter-spacing: 2px;
-    margin-bottom: 0;
-    #float: left;
-    text-transform: uppercase;
-    text-align: center;
-
-}*/
 
 .site-nav {
     float: right;
@@ -254,11 +221,11 @@
 }
 
 .post-list {
-    margin-left: 0;
+    margin-left: 20;
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        #margin-bottom: $spacing-unit;
     }
 }
 
@@ -269,7 +236,7 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 
