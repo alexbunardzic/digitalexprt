@@ -6,8 +6,8 @@
 </description>
     <link>https://alexbunardzic.github.io/</link>
     <atom:link href="https://alexbunardzic.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Jul 2015 21:28:18 -0700</pubDate>
-    <lastBuildDate>Sun, 05 Jul 2015 21:28:18 -0700</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2015 08:04:34 -0700</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2015 08:04:34 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -31,7 +31,7 @@
         <title>Complexity is the Enemy</title>
         <description>&lt;p&gt;The reason why any software product tends to quickly harden into a surface that resembles hardware is very simple – it all boils down to &lt;a href=&quot;https://en.wikipedia.org/wiki/Complexity&quot;&gt;complexity&lt;/a&gt;. Complexity is the symptom of sloppy thinking. It was Mark Twain who once sent a letter to a friend apologizing for the excessive length – he claimed he didn’t have enough time to write a shorter letter. Seems counter-intuitive at first (doesn’t it require more time to write a very long letter than it would take to write a shorter one?), but Twain’s statement is absolutely true. It is very easy to scribble pages upon pages of run-on sentences. It gets really hard to write a letter that is short and to the point and that conveys the message clearly.&lt;/p&gt;
 
-&lt;p&gt;The same holds true for software. When writing software code, it gets real easy to churn thousands upon thousands on lines of sloppy, poorly thought out code. Being verbose is easy, being succinct and simple is hard.&lt;/p&gt;
+&lt;p&gt;The same holds true for software. When writing software code, it gets real easy to churn thousands upon thousands of lines of sloppy, poorly thought out code. Being verbose is easy, being succinct and simple is hard.&lt;/p&gt;
 </description>
         <pubDate>Sat, 04 Jul 2015 11:15:27 -0700</pubDate>
         <link>https://alexbunardzic.github.io/2015/07/04/complexity-is-the-enemy.html</link>
@@ -46,9 +46,9 @@
 
 &lt;p&gt;Isn’t it surprising to see how many, if not most of the software products tend to harden as we work on them? We’ve all been there (and most likely more often than once): start some software development project, and get excited at first while observing how quickly we make useful and significant changes and continue adding value. But the initial buzz quickly wears off. Soon enough we get to the point where we realize that, all of a sudden, the honey moon appears to be over. Our shiny new product, that was up until yesterday so eager to emnbrace change and go into any direction we ask it to go, has now turned into a grumpy old curmudgeon.&lt;/p&gt;
 
-&lt;p&gt;This is the much dreaded point where we hit the wall, full speed, and experience rude awakening that’s telling us that our product has hardened into a solid, impenetrable mass. Any attempt to add new features, or modify existing features, or even remove superfluous features, turns into a disaster. Touch this newly hardened software product, and it will bite back. All of a sudden, our codebase become averse to change. At this point, many teams resign to the fact that they have built a so called ‘ball of mud’, and label it ‘legacy’ and then learn to live with its quirks and foibles. Or, as is often the case, many team members at that point quit, and start looking for another opportunity for a fresh start.&lt;/p&gt;
+&lt;p&gt;This is the much dreaded point where we hit the wall, full speed, and experience rude awakening that’s telling us that our product has hardened into a solid, impenetrable mass. Any attempt to add new features, or modify existing features, or even remove superfluous features, turns into a disaster. Touch this newly hardened software product, and it will bite back. All of a sudden, our codebase becomes averse to change. At this point, many teams resign to the fact that they have built a so called ‘ball of mud’, and label it ‘legacy’ and then learn to live with its quirks and foibles. Or, as is often the case, many team members at that point quit, and start looking for another opportunity for a fresh start.&lt;/p&gt;
 
-&lt;p&gt;This seemingly inevitable pattern is the bane of software developers’ existence. It truly spoils all the joy we experience as we embark upon a brand new, exciting project. So the most pressing question for every software developer/engineer/programmer is – &lt;em&gt;why&lt;/em&gt;? Why does each software development project inevitably have to erode and be ttransformed from soft and pliable to hardened and immovable legacy writeoff?&lt;/p&gt;
+&lt;p&gt;This seemingly inevitable pattern is the bane of software developers’ existence. It truly spoils all the joy we experience as we embark upon a brand new, exciting project. So the most pressing question for every software developer/engineer/programmer is – &lt;em&gt;why&lt;/em&gt;? Why does each software development project inevitably have to erode and be transformed from soft and pliable to hardened and immovable legacy writeoff?&lt;/p&gt;
 
 &lt;p&gt;Solve the above question, and you’ve made the world a better place. Easier said than done, but we’ll try to supply some diagnostic, forensics, as well as some remedies in the articles to follow here.&lt;/p&gt;
 
