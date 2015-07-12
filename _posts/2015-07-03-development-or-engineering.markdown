@@ -13,3 +13,4 @@ This perception may be skewed, or even deceptive, but whichever the case may be,
 
 We will be making a distinction between these two roles (i.e. software development and software engineering) as we're making progress in the subsequent articles. My intention is to focus more on the sofware development side of the business (e.g. how to work toward ensuring that the code we produce delivers deterministic, predictable results). I am however fully aware of the fact that just delivering predictive, deterministic code is not sufficient -- we also need to deliver predictive, deterministic process which will ensure we remain predictably time boxed and are staying within budgetary constraints.
 
+{% include comments.html %}
