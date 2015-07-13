@@ -3,8 +3,7 @@ title: Makamobi
 subtitle: Putting Soft Back Into Software
 email: alexbunardzic@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Discussion about software development and software engineering. Practical points and tips illustrating how to bring 'soft' back into software. 
-  Also, exploring the possibilities of writing deterministic programs using Ruby and Ruby on Rails.
+  How to bring 'soft' back into software
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://alexbunardzic.github.io" # the base hostname & protocol for your site
 name: Alex Bunardzic

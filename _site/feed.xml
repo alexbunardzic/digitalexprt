@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Makamobi</title>
-    <description>Discussion about software development and software engineering. Practical points and tips illustrating how to bring &#39;soft&#39; back into software.  Also, exploring the possibilities of writing deterministic programs using Ruby and Ruby on Rails.
+    <description>How to bring &#39;soft&#39; back into software.
 </description>
     <link>https://alexbunardzic.github.io/</link>
     <atom:link href="https://alexbunardzic.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Jul 2015 17:21:59 -0700</pubDate>
-    <lastBuildDate>Sun, 12 Jul 2015 17:21:59 -0700</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2015 18:42:38 -0700</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2015 18:42:38 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
