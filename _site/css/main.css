@@ -215,7 +215,7 @@ pre {
   .site-nav .page-link {
     color: #111;
     line-height: 1.5;
-    color: #FFF;
+    color: DimGray;
     font-weight: bold; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
