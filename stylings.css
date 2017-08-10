@@ -1303,7 +1303,7 @@ body {
     position: relative;
     z-index: 100;
     color: #333;
-    
+
 }
 
 * {
@@ -1498,7 +1498,7 @@ body {
 
 .header-section {
     text-align: center;
-    padding-top: 7em;
+    padding-top: 0em;
     line-height: 3.4em;
 }
 
