@@ -37,18 +37,19 @@
             <!-- content here -->
                 <h2>Blog</h2>
                 <br />
-                <p>Posts...</p>
-                <p>
-                    Immutable Components: Cattle, Not Pets
+<h2>Immutable Components: Cattle, Not Pets</h2>
 
+<p>
 Many software development experts have lavished a lot of praise to the virtues of immutable state. Shared mutable state has been declared evil, as it is considered one of the leading causes of many pernicious software bugs. It is clear by now that mutable state is considered undesirable.
-For some reason, no one seems to be issuing warnings about the equally undesirable presence of mutable components. Before we look a bit closer into the issues surrounding such components, it may help if we clarify what exactly do we mean when we say ‘mutable components’.
-Mutable Components
+For some reason, no one seems to be issuing warnings about the equally undesirable presence of mutable components. Before we look a bit closer into the issues surrounding such components, it may help if we clarify what exactly do we mean when we say ‘mutable components’.</p>
+<h3>Mutable Components</h3>
 A component in this context can mean one of the following three things:
-An object
-A service
-An actor model
-Regardless of how we label the component, it goes without saying that any software component possesses, among other attributes, certain capabilities. These capabilities are often referred to as component’s behaviour. In other words, a software component can perform some processing.
+<ol>
+<li>An object</li>
+<li>A service</li>
+<li>An actor model</li>
+</ol>
+<p>Regardless of how we label the component, it goes without saying that any software component possesses, among other attributes, certain capabilities. These capabilities are often referred to as component’s behaviour. In other words, a software component can perform some processing.
 Let’s illustrate this with an example. Suppose we decide to build a software component that can add two numbers. We could go about this by designing and implementing a class, which can then be instantiated as an object and then accessed in the computer’s main memory. Or, we could do it a bit differently and design it and implement it as a service (or, in more modern parlance, as a microservice), which could be installed on a network and accessed via its address. Finally, we could choose to design and implement it as an actor model.
 Whichever approach we may choose, in the end we will produce a component that is addressable (in memory or on the network) and is capable of performing some calculations/computations. In this extremely simplistic case, if we provide our newly minted component with two numbers, it will add those numbers up and will then give us the result of that arithmetic operation.
 So we build that component, we test it, it works as expected, we release it into production, and all is good. But suppose later on we realize that adding two numbers is not enough, and now we’d also like to have the ability to perform other arithmetic operations in an automated fashion. Let’s examine how will this change typically get done in the world of modern software development:
