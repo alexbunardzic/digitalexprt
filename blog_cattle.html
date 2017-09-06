@@ -42,61 +42,61 @@
 <img src="./assets/cattle not pets.jpg" width="600" />
 <br /><br />
 <p>
-Many software development experts have lavished a lot of praise to the virtues of immutable state. Shared mutable state has been declared evil, as it is considered one of the leading causes of many pernicious software bugs. It is clear by now that mutable state is considered undesirable.</p>
+Many software development experts have lavished a lot of praise to the virtues of <a href="https://en.wikipedia.org/wiki/Immutable_object" target=_blank>immutable state</a>. <a href="http://henrikeichenhardt.blogspot.ca/2013/06/why-shared-mutable-state-is-root-of-all.html">Shared mutable state</a> has been declared evil, as it is considered one of the leading causes of many pernicious software bugs. It is clear by now that <a href="http://www.lispcast.com/global-mutable-state">mutable state</a> is considered undesirable.</p>
 <br />
-<p>For some reason, no one seems to be issuing warnings about the equally undesirable presence of mutable components. Before we look a bit closer into the issues surrounding such components, it may help if we clarify what exactly do we mean when we say ‘mutable components’.</p>
+<p>For some reason, no one seems to be issuing warnings about the equally undesirable presence of <em>mutable components</em>. Before we look a bit closer into the issues surrounding such components, it may help if we clarify what exactly do we mean when we say ‘mutable components’.</p>
 <br /><br />
 <h3>Mutable Components</h3>
 <br />
-<p>A component in this context can mean one of the following three things:</p>
+<p>A <em>component</em> in this context can mean one of the following three things:</p>
 <br />
-<p>1. An object</p>
-<p>2. A service</p>
-<p>3. An actor model</p>
+<p>1. An <em>object</em></p>
+<p>2. A <em>service</em></p>
+<p>3. An <em>actor model</em></p>
 <br />
-<p>Regardless of how we label the component, it goes without saying that any software component possesses, among other attributes, certain capabilities. These capabilities are often referred to as component’s behaviour. In other words, a software component can perform some processing.</p>
+<p>Regardless of how we label the component, it goes without saying that any software component possesses, among other attributes, certain <em>capabilities</em>. These capabilities are often referred to as component’s <em>behaviour</em>. In other words, a software component can perform some <em>processing</em>.</p>
 <br />
-<p>Let’s illustrate this with an example. Suppose we decide to build a software component that can add two numbers. We could go about this by designing and implementing a class, which can then be instantiated as an object and then accessed in the computer’s main memory. Or, we could do it a bit differently and design it and implement it as a service (or, in more modern parlance, as a microservice), which could be installed on a network and accessed via its address. Finally, we could choose to design and implement it as an actor model.</p>
+<p>Let’s illustrate this with an example. Suppose we decide to build a software component that can <em>add two numbers</em>. We could go about this by designing and implementing a <em>class</em>, which can then be instantiated as an <em>object</em> and then accessed in the computer’s main memory. Or, we could do it a bit differently and design it and implement it as a <em>service</em> (or, in more modern parlance, as a <a href="https://en.wikipedia.org/wiki/Microservices">microservice</a>), which could be installed on a network and accessed via its address. Finally, we could choose to design and implement it as an <a href="https://en.wikipedia.org/wiki/Actor_model">actor model</a>.</p>
 <br />
-<p>Whichever approach we may choose, in the end we will produce a component that is addressable (in memory or on the network) and is capable of performing some calculations/computations. In this extremely simplistic case, if we provide our newly minted component with two numbers, it will add those numbers up and will then give us the result of that arithmetic operation.</p>
+<p>Whichever approach we may choose, in the end we will produce a component that is <em>addressable</em> (in memory or on the network) and is capable of performing some calculations/computations. In this extremely simplistic case, if we provide our newly minted component with two numbers, it will add those numbers up and will then give us the result of that arithmetic operation.</p>
 <br />
-<p>So we build that component, we test it, it works as expected, we release it into production, and all is good. But suppose later on we realize that adding two numbers is not enough, and now we’d also like to have the ability to perform other arithmetic operations in an automated fashion. Let’s examine how will this change typically get done in the world of modern software development:</p>
+<p>So we build that component, we test it, it works as expected, we release it into production, and all is good. But suppose later on we realize that adding two numbers is not enough, and now we’d also like to have the ability to <em>perform other arithmetic operations</em> in an automated fashion. Let’s examine how will this change typically get done in the world of modern software development:</p>
 <br />
-<p>Since the component’s behaviour is now deemed limited, we’d typically work on extending its capabilities. In this particular case, we’d extend it by adding the ability to perform subtraction, multiplication and division, on top of the already existing ability to perform addition. The original component will most likely be refactored, in order for us to be able to slot those new capabilities in. So now the component will morph from being an addition component to being a more generic arithmetic component (regardless of whether it was implemented as an object, a microservice, or an actor). Naturally, we accomplish that transformation by modifying the component’s source code.</p>
+<p>Since the component’s behaviour is now deemed limited, we’d typically work on <em>extending its capabilities</em>. In this particular case, we’d extend it by adding the ability to perform <em>subtraction, multiplication and division</em>, on top of the already existing ability to perform addition. The original component will most likely be <a href="https://en.wikipedia.org/wiki/Code_refactoring">refactored</a>, in order for us to be able to slot those new capabilities in. So now the component will morph from being an <em>addition component</em> to being a more generic <em>arithmetic component</em> (regardless of whether it was implemented as an object, a microservice, or an actor). Naturally, we accomplish that transformation by <em>modifying</em> the component’s source code.</p>
 <br />
-<p>It is this process of refactoring and of adding new source code/modifying existing source code that makes that component mutable. The component mutates under the pressure of the changing requirements.</p>
+<p>It is this process of refactoring and of adding new source code/modifying existing source code that makes that component <em>mutable</em>. The component mutates under the pressure of the changing requirements.</p>
 <br /><br />
 <h3>Why Do Components Mutate?</h3>
 <br />
-<p>During the good old days of imperative sequential programming, software was designed to mutate the data in place. For example, if a customer changes the address we have on file for that customer, imperative code will find that record and will overwrite (i.e. mutate in place) the old address with the new one. As the industry was gradually maturing, we had slowly reached the realization that mutating the data is not a good idea.</p>
+<p>During the good old days of imperative sequential programming, software was designed to mutate the data in place. For example, if a customer changes the address we have on file for that customer, imperative code will find that record and will <em>overwrite</em> (i.e. mutate in place) the old address with the new one. As the industry was gradually maturing, we had slowly reached the realization that mutating the data is <em>not a good idea</em>.</p>
 <br />
 <p>However, since things incessantly change, we cannot create effective software automation if we insist that everything remains immutable. New requirements must be automated by modifying the behaviour of the apps. And where are the smarts of the apps stored? Inside components’ source code, of course!</p>
 <br />
-<p>In order to reprogram the behaviour of an app, we need to modify its source code (its blueprint, its DNA). We are well advised to leave the recorded facts (i.e. the data) immutable; however, we are encouraged to merrily mess with the source code. That’s really a terrible idea which needs to get decommissioned and sent to the elephant graveyard (the same way we’ve sent the idea of mutating the data to the elephant graveyard).</p>
+<p>In order to <em>reprogram</em> the behaviour of an app, we need to modify its source code (its <em>blueprint</em>, its DNA). We are well advised to leave the recorded facts (i.e. the data) immutable; however, we are encouraged to merrily mess with the source code. That’s really a terrible idea which needs to get decommissioned and sent to the elephant graveyard (the same way we’ve sent the idea of mutating the data to the elephant graveyard).</p>
 <br /><br />
 <h3>If Components Don’t Mutate And Data Don’t Mutate, How Does Change Get Implemented?</h3>
 <br />
-<p>Obviously, it is desirable to avoid modifying any recorded facts. Unless we invent the time machine and travel back in the past and then mess with history, we have no business changing any of the facts that have transpired and then carefully recorded.</p>
+<p>Obviously, it is desirable to <em>avoid modifying any recorded facts</em>. Unless we invent the time machine and travel back in the past and then mess with history, we have no business changing any of the facts that have transpired and then carefully recorded.</p>
 <br />
 <p>It may be less obvious at this point why would it be desirable to avoid modifying the once recorded source code of any component. Today we feel quite confident when rolling up our sleeves and making changes to any component’s DNA. We feel confident doing that because we know that source control automation tools, such as git, have our backs covered. If we mess anything up, the source control tool will enable us to restore things back to normalcy.</p>
 <br />
 <p>Interestingly, if we examine the principles upon which source control tools are built upon, we will see that immutability as at its core. Any modification to any component’s DNA is recorded with a timestamp, meaning it is considered immutable.</p>
 <br />
-<p>We therefore see that even the smarts of a component is considered immutable. This now poses a crucial question: if the state as well as the smarts are not to be modified, how are we to effectively automate the ever changing business processing? The answer may be startling at first: by doing more of the same!</p>
+<p>We therefore see that even the smarts of a component is considered immutable. This now poses a crucial question: if the state as well as the smarts are not to be modified, how are we to effectively automate the ever changing business processing? The answer may be startling at first: by doing <em>more of the same</em>!</p>
 <br />
-<p>Rather than modifying the source code of a component, it is advisable to fabricate more instances of the same component. That way, the original source code (the DNA) remains immutable.</p>
+<p>Rather than modifying the source code of a component, it is advisable to fabricate <em>more instances of the same component</em>. That way, the original source code (the DNA) remains immutable.</p>
 <br /><br />
 <h3>Cattle, Not Pets</h3>
 <br />
 <p>Naturally, whenever someone carefully crafts a few pieces of software automation, such products feel precious. It takes years of education and hands-on experience before one can reliably make changes to any software source code. Once created, a software component feels special. It now starts on a journey through many iterations, fine tuning, refactoring, making it more robust, more reusable and more resilient, etc. It’s a unique, precious piece of work whose maintenance requires combining the skills of an engineer, a craftsperson, even an artist!</p>
 <br />
-<p>We have argued in the article “Abolish Unique Precious Snowflakes” that nurturing such sentiments of uniqueness and preciousness is not advisable in the field of software engineering. Simply put, it is not advisable to treat software components as pets. Because such ‘pets’ quickly escape control and turn into bloat.</p>
+<p>We have argued in the article “Abolish Unique Precious Snowflakes” that nurturing such sentiments of uniqueness and preciousness is not advisable in the field of software engineering. Simply put, it is not advisable to treat software components as pets. Because such ‘pets’ quickly escape control and turn into <em>bloat</em>.</p>
 <br />
 <p>Instead of treating hand crafted source code as a pet, it is much more advisable to treat is as if it’s cattle. Unlike pets, who have names and a special status, cattle are nameless. One animal in the herd is easily replaced with another. There is nothing unique or precious about one of those animals compared to any other animal in the herd. Consequently, people responsible for herding cattle are not prone to get attached to a particular individual representative of the herd.</p>
 <br />
 <p>Software components must be treated like cattle. Instead of investing time and effort into producing a unique representative of the herd, our time and effort are better spent fabricating more of the same. More cattle means more ability to deal with all kinds of changes. The skillset now shifts from being able to ‘breed’ and ‘train’ a particular unique individual pet, to being able to produce large number of identical members of cattle and then organizing those anonymous cattle members into more intricate structures.</p>
 <br />
-<p>In this new arrangement, network configuration becomes the most desirable programming skill. Now that we have almost unlimited cattle, we need to learn how to organize that workforce effectivelly. Once we do that, our solution will be much more sturdy, because any failure will not affect the precious unique source code. It will be easy to let it crash and then restart.</p>
+<p>In this new arrangement, <em>network configuration</em> becomes the most desirable programming skill. Now that we have almost unlimited cattle, we need to learn how to organize that workforce effectivelly. Once we do that, our solution will be much more sturdy, because any failure will not affect the precious unique source code. It will be easy to <em>let it crash and then restart</em>.</p>
 <br />
 <p>And since these cattle are comprised of plentitude of representative ‘actors’ (i.e. anonymous ‘animals’), each and every ‘actor’ is itself immutable. Any change that arises must result in the reorganization of this network of actors, not in modifying the DNA of any constituent actor.</p>
 <br /><br />
